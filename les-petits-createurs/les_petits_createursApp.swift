@@ -12,7 +12,8 @@ import SwiftData
 struct les_petits_createursApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            //Item.self,
+            UserModel.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,8 +26,10 @@ struct les_petits_createursApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            UserListView()
         }
+        .environmentObject(UserListViewModel(modelContext: sharedModelContainer.mainContext))
         .modelContainer(sharedModelContainer)
     }
 }

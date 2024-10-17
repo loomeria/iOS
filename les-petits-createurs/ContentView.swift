@@ -11,26 +11,31 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    @State private var viewModel = ViewModel()
 
     var body: some View {
         NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+            VStack {
+                Text(viewModel.isCompleted ? "All items are completed" : "Not completed")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                List {
+                    ForEach(items) { item in
+                        NavigationLink {
+                            Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        } label: {
+                            Text("\(item.title) -> \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        }
                     }
+                    .onDelete(perform: deleteItems)
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        EditButton()
+                    }
+                    ToolbarItem {
+                        Button(action: addItem) {
+                            Label("Add Item", systemImage: "plus")
+                        }
                     }
                 }
             }
@@ -40,8 +45,9 @@ struct ContentView: View {
     }
 
     private func addItem() {
+        viewModel.isCompleted = false
         withAnimation {
-            let newItem = Item(timestamp: Date())
+            let newItem = Item(title: "Items", timestamp: Date())
             modelContext.insert(newItem)
         }
     }
@@ -51,6 +57,10 @@ struct ContentView: View {
             for index in offsets {
                 modelContext.delete(items[index])
             }
+        }
+        print(items)
+        if items.count == 1 {
+            viewModel.isCompleted = true
         }
     }
 }
