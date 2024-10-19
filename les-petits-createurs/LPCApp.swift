@@ -9,7 +9,10 @@ import SwiftUI
 import SwiftData
 
 @main
-struct les_petits_createursApp: App {
+struct LPCApp: App {
+    let notificationManager = NotificationManager()
+
+    
     let sharedModelContainer: ModelContainer = {
         let schema = Schema([
             //Item.self,
@@ -25,6 +28,7 @@ struct les_petits_createursApp: App {
     }()
 
     var body: some Scene {
+
         WindowGroup {
             //ContentView()
             UserListView()
