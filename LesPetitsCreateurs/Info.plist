@@ -5,16 +5,14 @@
 	<key>UIApplicationShortcutItems</key>
 	<array>
 		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeSearch</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Createurs</string>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>Open Page</string>
+			<string>Recherche</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.example.openPage</string>
-		</dict>
-		<dict>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>Settings</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>com.example.settings</string>
+			<string>SearchAction</string>
 		</dict>
 	</array>
 </dict>
