@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import les_petits_createurs
+@testable import LesPetitsCreateurs
 
 struct les_petits_createursTests {
 
