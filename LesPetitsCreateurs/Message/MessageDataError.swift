@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum UserError: LocalizedError {
+enum MessageError: LocalizedError {
     case invalidURL
     case invalidResponse
     case invalidData

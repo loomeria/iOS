@@ -7,26 +7,26 @@
 
 import Foundation
 
-final class UserDataService {
+final class MessageDataService {
     
-    static func fetchData() async throws -> [UserModel] {
+    static func fetchData() async throws -> [MessageModel] {
         let urlString = "https://api.github.com/users"
         guard let url = URL(string: urlString) else {
-            throw UserError.invalidURL
+            throw MessageError.invalidURL
         }
         
         let (data, response) = try await URLSession.shared.data(from: url)
         
         guard let response = response as? HTTPURLResponse,
               response.statusCode == 200 else {
-            throw UserError.invalidResponse
+            throw MessageError.invalidResponse
         }
         
         do {
             let decoder = JSONDecoder()
-            return try decoder.decode([UserModel].self, from: data)
+            return try decoder.decode([MessageModel].self, from: data)
         } catch {
-            throw UserError.invalidData
+            throw MessageError.invalidData
         }
     }
 }

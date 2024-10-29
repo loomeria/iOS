@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class BasketItem {
     var title: String
     var isCompleted: Bool
     var timestamp: Date

@@ -1,6 +1,6 @@
 //
-//  UserListView.swift
-//  les-petits-createurs
+//  MessageListView.swift
+//  LesPetitsCreateurs
 //
 //  Created by Valentin Vanhove on 15/10/2024.
 //
@@ -8,19 +8,19 @@
 import SwiftData
 import SwiftUI
 
-struct UserListView: View {
+struct MessageListView: View {
 
-    @EnvironmentObject var viewModel: UserListViewModel
-    @Query(sort: \UserModel.login) var usersFromLocalDB: [UserModel]
+    @EnvironmentObject var viewModel: MessageListViewModel
+    @Query(sort: \MessageModel.login) var messagesFromLocalDB: [MessageModel]
 
     var body: some View {
         NavigationStack {
             ZStack {
                 Color.white.ignoresSafeArea()
 
-                List(usersFromLocalDB, id: \.id) { user in
+                List(messagesFromLocalDB, id: \.id) { message in
                     HStack {
-                        AsyncImage(url: URL(string: user.avatarURL ?? "")) {
+                        AsyncImage(url: URL(string: message.avatarURL ?? "")) {
                             image in
                             image
                                 .resizable()
@@ -33,9 +33,9 @@ struct UserListView: View {
                         .frame(width: 50, height: 50)
 
                         VStack(alignment: .leading) {
-                            Text(user.login?.capitalized ?? "")
+                            Text(message.login?.capitalized ?? "")
                                 .font(.headline)
-                            Text(user.url ?? "")
+                            Text(message.url ?? "")
                                 .font(.subheadline)
                         }
                     }
@@ -51,8 +51,8 @@ struct UserListView: View {
             }
         }
         .task {
-            if usersFromLocalDB.isEmpty {
-                await viewModel.getUsers()
+            if messagesFromLocalDB.isEmpty {
+                await viewModel.getMessages()
             }
         }
         .alert(isPresented: $viewModel.shouldShowAlert) {
@@ -68,7 +68,7 @@ struct UserListView: View {
 
     let sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            UserModel.self
+            MessageModel.self
         ])
         let modelConfiguration = ModelConfiguration(
             schema: schema, isStoredInMemoryOnly: false)
@@ -81,6 +81,6 @@ struct UserListView: View {
         }
     }()
 
-    UserListView().environmentObject(
-        UserListViewModel(modelContext: ModelContext(sharedModelContainer)))
+    MessageListView().environmentObject(
+        MessageListViewModel(modelContext: ModelContext(sharedModelContainer)))
 }

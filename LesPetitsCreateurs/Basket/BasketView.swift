@@ -8,9 +8,9 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct BasketView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var items: [BasketItem]
     @State private var viewModel = ViewModel()
 
     var body: some View {
@@ -47,7 +47,7 @@ struct ContentView: View {
     private func addItem() {
         viewModel.isCompleted = false
         withAnimation {
-            let newItem = Item(title: "Items", timestamp: Date())
+            let newItem = BasketItem(title: "Items", timestamp: Date())
             modelContext.insert(newItem)
         }
     }
@@ -66,6 +66,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+    BasketView()
+        .modelContainer(for: BasketItem.self, inMemory: true)
 }

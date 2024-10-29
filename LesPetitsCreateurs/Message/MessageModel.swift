@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-class UserModel: Codable {
+class MessageModel: Codable {
     @Attribute(.unique) var id: Int?
     var login: String?
     var nodeID: String?

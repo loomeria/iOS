@@ -11,7 +11,7 @@ import SwiftData
 import SwiftUI
 
 @MainActor
-final class UserListViewModel: ObservableObject {
+final class MessageListViewModel: ObservableObject {
     
     var modelContext: ModelContext?
     
@@ -19,18 +19,18 @@ final class UserListViewModel: ObservableObject {
         self.modelContext = modelContext
     }
     
-    @Published var userError: UserError?
+    @Published var userError: MessageError?
     @Published var shouldShowAlert = false
     @Published var isLoading = false
     
-    func getUsers() async {
+    func getMessages() async {
         isLoading = true
         do {
             self.isLoading = false
-            let users = try await UserDataService.fetchData()
-            users.forEach { modelContext?.insert($0) }
+            let messages = try await MessageDataService.fetchData()
+            messages.forEach { modelContext?.insert($0) }
         } catch(let error) {
-            userError = UserError.custom(error: error)
+            userError = MessageError.custom(error: error)
             shouldShowAlert = true
             isLoading = false
         }

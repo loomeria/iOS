@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension ContentView {
+extension BasketView {
     
     @Observable
     class ViewModel: ObservableObject {
