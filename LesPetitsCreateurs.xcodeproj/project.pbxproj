@@ -6,20 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C14D80512CC3C32F00D3A0BB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14D80502CC3C32F00D3A0BB /* WidgetKit.framework */; };
-		C14D80532CC3C32F00D3A0BB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14D80522CC3C32F00D3A0BB /* SwiftUI.framework */; };
-		C14D80642CC3C33000D3A0BB /* LesPetitsCreateursWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C14D804E2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		C14D80622CC3C33000D3A0BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C178988B2CB94C4A00CDFE68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C14D804D2CC3C32F00D3A0BB;
-			remoteInfo = LesPetitsCreateursWidgetExtension;
-		};
 		C17898A62CB94C4B00CDFE68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C178988B2CB94C4A00CDFE68 /* Project object */;
@@ -43,7 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C14D80642CC3C33000D3A0BB /* LesPetitsCreateursWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,8 +37,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C14D804E2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LesPetitsCreateursWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14D80502CC3C32F00D3A0BB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C14D80522CC3C32F00D3A0BB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		C17898932CB94C4A00CDFE68 /* LesPetitsCreateurs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesPetitsCreateurs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17898A52CB94C4B00CDFE68 /* LesPetitsCreateursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesPetitsCreateursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +44,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C14D80682CC3C33000D3A0BB /* Exceptions for "LesPetitsCreateursWidget" folder in "LesPetitsCreateursWidgetExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C14D804D2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension */;
-		};
 		C17898D12CB94C9400CDFE68 /* Exceptions for "LesPetitsCreateurs" folder in "LesPetitsCreateurs" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -77,14 +54,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C14D80542CC3C33000D3A0BB /* LesPetitsCreateursWidget */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C14D80682CC3C33000D3A0BB /* Exceptions for "LesPetitsCreateursWidget" folder in "LesPetitsCreateursWidgetExtension" target */,
-			);
-			path = LesPetitsCreateursWidget;
-			sourceTree = "<group>";
-		};
 		C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -106,15 +75,6 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C14D804B2CC3C32F00D3A0BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C14D80532CC3C32F00D3A0BB /* SwiftUI.framework in Frameworks */,
-				C14D80512CC3C32F00D3A0BB /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C17898902CB94C4A00CDFE68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,7 +102,6 @@
 		C14D804F2CC3C32F00D3A0BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C14D80502CC3C32F00D3A0BB /* WidgetKit.framework */,
 				C14D80522CC3C32F00D3A0BB /* SwiftUI.framework */,
 			);
 			name = Frameworks;
@@ -154,7 +113,6 @@
 				C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */,
 				C17898A82CB94C4B00CDFE68 /* LesPetitsCreateursTests */,
 				C17898B22CB94C4B00CDFE68 /* LesPetitsCreateursUITests */,
-				C14D80542CC3C33000D3A0BB /* LesPetitsCreateursWidget */,
 				C14D804F2CC3C32F00D3A0BB /* Frameworks */,
 				C17898942CB94C4A00CDFE68 /* Products */,
 			);
@@ -166,7 +124,6 @@
 				C17898932CB94C4A00CDFE68 /* LesPetitsCreateurs.app */,
 				C17898A52CB94C4B00CDFE68 /* LesPetitsCreateursTests.xctest */,
 				C17898AF2CB94C4B00CDFE68 /* LesPetitsCreateursUITests.xctest */,
-				C14D804E2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,28 +131,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C14D804D2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C14D80652CC3C33000D3A0BB /* Build configuration list for PBXNativeTarget "LesPetitsCreateursWidgetExtension" */;
-			buildPhases = (
-				C14D804A2CC3C32F00D3A0BB /* Sources */,
-				C14D804B2CC3C32F00D3A0BB /* Frameworks */,
-				C14D804C2CC3C32F00D3A0BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C14D80542CC3C33000D3A0BB /* LesPetitsCreateursWidget */,
-			);
-			name = LesPetitsCreateursWidgetExtension;
-			packageProductDependencies = (
-			);
-			productName = LesPetitsCreateursWidgetExtension;
-			productReference = C14D804E2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17898B92CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateurs" */;
@@ -208,7 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				C14D80632CC3C33000D3A0BB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */,
@@ -276,9 +210,6 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					C14D804D2CC3C32F00D3A0BB = {
-						CreatedOnToolsVersion = 16.0;
-					};
 					C17898922CB94C4A00CDFE68 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -309,19 +240,11 @@
 				C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */,
 				C17898A42CB94C4B00CDFE68 /* LesPetitsCreateursTests */,
 				C17898AE2CB94C4B00CDFE68 /* LesPetitsCreateursUITests */,
-				C14D804D2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C14D804C2CC3C32F00D3A0BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C17898912CB94C4A00CDFE68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,13 +269,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C14D804A2CC3C32F00D3A0BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C178988F2CB94C4A00CDFE68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,11 +293,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C14D80632CC3C33000D3A0BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C14D804D2CC3C32F00D3A0BB /* LesPetitsCreateursWidgetExtension */;
-			targetProxy = C14D80622CC3C33000D3A0BB /* PBXContainerItemProxy */;
-		};
 		C17898A72CB94C4B00CDFE68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */;
@@ -395,60 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C14D80662CC3C33000D3A0BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z889TDRYB6;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LesPetitsCreateursWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LesPetitsCreateursWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateurs.LesPetitsCreateursWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C14D80672CC3C33000D3A0BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z889TDRYB6;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LesPetitsCreateursWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LesPetitsCreateursWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateurs.LesPetitsCreateursWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		C17898B72CB94C4B00CDFE68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,15 +574,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C14D80652CC3C33000D3A0BB /* Build configuration list for PBXNativeTarget "LesPetitsCreateursWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C14D80662CC3C33000D3A0BB /* Debug */,
-				C14D80672CC3C33000D3A0BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C178988E2CB94C4A00CDFE68 /* Build configuration list for PBXProject "LesPetitsCreateurs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var presentedProfiles: [ProfileModel] = []
+    
     var body: some View {
-        Text("Profile View!")
+        NavigationStack {
+            VStack {
+               
+            }
+            .navigationTitle("Profile")
+        }
+        .background(Color.white)
     }
 }
 

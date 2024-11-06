@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct HomeModel: Identifiable {
+    var id = UUID().uuidString
+}

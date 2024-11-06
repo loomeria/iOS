@@ -8,6 +8,6 @@
 import Foundation
 
 struct CardModel: Identifiable {
-    var id: Int
+    var id = UUID().uuidString
 }
 

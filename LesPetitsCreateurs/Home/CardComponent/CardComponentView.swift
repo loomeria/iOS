@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  CardDetailView.swift
 //  LesPetitsCreateurs
 //
 //  Created by Valentin Vanhove on 28/10/2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct CardComponentView: View {
     var body: some View {
-        CardComponentView()
+        Text("Card Component")
     }
 }
 
 #Preview {
-    HomeView()
+    CardComponentView()
 }
