@@ -1,5 +1,5 @@
 //
-//  LPCApp.swift
+//  LoomeriaApp.swift
 //  LesPetitsCreateurs
 //
 //  Created by Valentin Vanhove on 11/10/2024.
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct LPCApp: App {
+struct LoomeriaApp: App {
     init() {
         UITabBar.appearance().tintColor = UIColor.green
     }

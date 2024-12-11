@@ -1,13 +1,13 @@
 //
-//  les_petits_createursUITests.swift
-//  les-petits-createursUITests
+//  LoomeriaUITests.swift
+//  LoomeriaUITests
 //
-//  Created by Valentin Vanhove on 11/10/2024.
+//  Created by Valentin Vanhove on 11/12/2024.
 //
 
 import XCTest
 
-final class LesPetitsCreateursUITests: XCTestCase {
+final class LoomeriaUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
