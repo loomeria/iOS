@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		C17898A62CB94C4B00CDFE68 /* PBXContainerItemProxy */ = {
+		C17C69AC2D09CD180051E008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C178988B2CB94C4A00CDFE68 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C17898922CB94C4A00CDFE68;
-			remoteInfo = "les-petits-createurs";
+			remoteInfo = Loomeria;
 		};
-		C17898B02CB94C4B00CDFE68 /* PBXContainerItemProxy */ = {
+		C17C69BD2D09CD2B0051E008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C178988B2CB94C4A00CDFE68 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C17898922CB94C4A00CDFE68;
-			remoteInfo = "les-petits-createurs";
+			remoteInfo = Loomeria;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,38 +38,38 @@
 
 /* Begin PBXFileReference section */
 		C14D80522CC3C32F00D3A0BB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		C17898932CB94C4A00CDFE68 /* LesPetitsCreateurs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesPetitsCreateurs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17898A52CB94C4B00CDFE68 /* LesPetitsCreateursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesPetitsCreateursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17898AF2CB94C4B00CDFE68 /* LesPetitsCreateursUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesPetitsCreateursUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17898932CB94C4A00CDFE68 /* Loomeria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loomeria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17C69A62D09CD180051E008 /* LoomeriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoomeriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17C69B92D09CD2B0051E008 /* LoomeriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoomeriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C17898D12CB94C9400CDFE68 /* Exceptions for "LesPetitsCreateurs" folder in "LesPetitsCreateurs" target */ = {
+		C17C69C42D09CE560051E008 /* Exceptions for "Loomeria" folder in "Loomeria" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */;
+			target = C17898922CB94C4A00CDFE68 /* Loomeria */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */ = {
+		C17898952CB94C4A00CDFE68 /* Loomeria */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C17898D12CB94C9400CDFE68 /* Exceptions for "LesPetitsCreateurs" folder in "LesPetitsCreateurs" target */,
+				C17C69C42D09CE560051E008 /* Exceptions for "Loomeria" folder in "Loomeria" target */,
 			);
-			path = LesPetitsCreateurs;
+			path = Loomeria;
 			sourceTree = "<group>";
 		};
-		C17898A82CB94C4B00CDFE68 /* LesPetitsCreateursTests */ = {
+		C17C69A72D09CD180051E008 /* LoomeriaUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LesPetitsCreateursTests;
+			path = LoomeriaUITests;
 			sourceTree = "<group>";
 		};
-		C17898B22CB94C4B00CDFE68 /* LesPetitsCreateursUITests */ = {
+		C17C69BA2D09CD2B0051E008 /* LoomeriaTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LesPetitsCreateursUITests;
+			path = LoomeriaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,14 +82,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898A22CB94C4B00CDFE68 /* Frameworks */ = {
+		C17C69A32D09CD180051E008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898AC2CB94C4B00CDFE68 /* Frameworks */ = {
+		C17C69B62D09CD2B0051E008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,9 +110,9 @@
 		C178988A2CB94C4A00CDFE68 = {
 			isa = PBXGroup;
 			children = (
-				C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */,
-				C17898A82CB94C4B00CDFE68 /* LesPetitsCreateursTests */,
-				C17898B22CB94C4B00CDFE68 /* LesPetitsCreateursUITests */,
+				C17898952CB94C4A00CDFE68 /* Loomeria */,
+				C17C69A72D09CD180051E008 /* LoomeriaUITests */,
+				C17C69BA2D09CD2B0051E008 /* LoomeriaTests */,
 				C14D804F2CC3C32F00D3A0BB /* Frameworks */,
 				C17898942CB94C4A00CDFE68 /* Products */,
 			);
@@ -121,9 +121,9 @@
 		C17898942CB94C4A00CDFE68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C17898932CB94C4A00CDFE68 /* LesPetitsCreateurs.app */,
-				C17898A52CB94C4B00CDFE68 /* LesPetitsCreateursTests.xctest */,
-				C17898AF2CB94C4B00CDFE68 /* LesPetitsCreateursUITests.xctest */,
+				C17898932CB94C4A00CDFE68 /* Loomeria.app */,
+				C17C69A62D09CD180051E008 /* LoomeriaUITests.xctest */,
+				C17C69B92D09CD2B0051E008 /* LoomeriaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */ = {
+		C17898922CB94C4A00CDFE68 /* Loomeria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C17898B92CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateurs" */;
+			buildConfigurationList = C17898B92CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "Loomeria" */;
 			buildPhases = (
 				C178988F2CB94C4A00CDFE68 /* Sources */,
 				C17898902CB94C4A00CDFE68 /* Frameworks */,
@@ -145,60 +145,60 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C17898952CB94C4A00CDFE68 /* LesPetitsCreateurs */,
+				C17898952CB94C4A00CDFE68 /* Loomeria */,
 			);
-			name = LesPetitsCreateurs;
+			name = Loomeria;
 			packageProductDependencies = (
 			);
 			productName = "les-petits-createurs";
-			productReference = C17898932CB94C4A00CDFE68 /* LesPetitsCreateurs.app */;
+			productReference = C17898932CB94C4A00CDFE68 /* Loomeria.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C17898A42CB94C4B00CDFE68 /* LesPetitsCreateursTests */ = {
+		C17C69A52D09CD180051E008 /* LoomeriaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C17898BC2CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateursTests" */;
+			buildConfigurationList = C17C69AE2D09CD180051E008 /* Build configuration list for PBXNativeTarget "LoomeriaUITests" */;
 			buildPhases = (
-				C17898A12CB94C4B00CDFE68 /* Sources */,
-				C17898A22CB94C4B00CDFE68 /* Frameworks */,
-				C17898A32CB94C4B00CDFE68 /* Resources */,
+				C17C69A22D09CD180051E008 /* Sources */,
+				C17C69A32D09CD180051E008 /* Frameworks */,
+				C17C69A42D09CD180051E008 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C17898A72CB94C4B00CDFE68 /* PBXTargetDependency */,
+				C17C69AD2D09CD180051E008 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C17898A82CB94C4B00CDFE68 /* LesPetitsCreateursTests */,
+				C17C69A72D09CD180051E008 /* LoomeriaUITests */,
 			);
-			name = LesPetitsCreateursTests;
+			name = LoomeriaUITests;
 			packageProductDependencies = (
 			);
-			productName = "les-petits-createursTests";
-			productReference = C17898A52CB94C4B00CDFE68 /* LesPetitsCreateursTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C17898AE2CB94C4B00CDFE68 /* LesPetitsCreateursUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C17898BF2CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateursUITests" */;
-			buildPhases = (
-				C17898AB2CB94C4B00CDFE68 /* Sources */,
-				C17898AC2CB94C4B00CDFE68 /* Frameworks */,
-				C17898AD2CB94C4B00CDFE68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C17898B12CB94C4B00CDFE68 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C17898B22CB94C4B00CDFE68 /* LesPetitsCreateursUITests */,
-			);
-			name = LesPetitsCreateursUITests;
-			packageProductDependencies = (
-			);
-			productName = "les-petits-createursUITests";
-			productReference = C17898AF2CB94C4B00CDFE68 /* LesPetitsCreateursUITests.xctest */;
+			productName = LoomeriaUITests;
+			productReference = C17C69A62D09CD180051E008 /* LoomeriaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C17C69B82D09CD2B0051E008 /* LoomeriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17C69BF2D09CD2B0051E008 /* Build configuration list for PBXNativeTarget "LoomeriaTests" */;
+			buildPhases = (
+				C17C69B52D09CD2B0051E008 /* Sources */,
+				C17C69B62D09CD2B0051E008 /* Frameworks */,
+				C17C69B72D09CD2B0051E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17C69BE2D09CD2B0051E008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C17C69BA2D09CD2B0051E008 /* LoomeriaTests */,
+			);
+			name = LoomeriaTests;
+			packageProductDependencies = (
+			);
+			productName = LoomeriaTests;
+			productReference = C17C69B92D09CD2B0051E008 /* LoomeriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,23 +207,23 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					C17898922CB94C4A00CDFE68 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					C17898A42CB94C4B00CDFE68 = {
-						CreatedOnToolsVersion = 16.0;
+					C17C69A52D09CD180051E008 = {
+						CreatedOnToolsVersion = 16.1;
 						TestTargetID = C17898922CB94C4A00CDFE68;
 					};
-					C17898AE2CB94C4B00CDFE68 = {
-						CreatedOnToolsVersion = 16.0;
+					C17C69B82D09CD2B0051E008 = {
+						CreatedOnToolsVersion = 16.1;
 						TestTargetID = C17898922CB94C4A00CDFE68;
 					};
 				};
 			};
-			buildConfigurationList = C178988E2CB94C4A00CDFE68 /* Build configuration list for PBXProject "LesPetitsCreateurs" */;
+			buildConfigurationList = C178988E2CB94C4A00CDFE68 /* Build configuration list for PBXProject "Loomeria" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */,
-				C17898A42CB94C4B00CDFE68 /* LesPetitsCreateursTests */,
-				C17898AE2CB94C4B00CDFE68 /* LesPetitsCreateursUITests */,
+				C17898922CB94C4A00CDFE68 /* Loomeria */,
+				C17C69A52D09CD180051E008 /* LoomeriaUITests */,
+				C17C69B82D09CD2B0051E008 /* LoomeriaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,14 +252,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898A32CB94C4B00CDFE68 /* Resources */ = {
+		C17C69A42D09CD180051E008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898AD2CB94C4B00CDFE68 /* Resources */ = {
+		C17C69B72D09CD2B0051E008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,14 +276,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898A12CB94C4B00CDFE68 /* Sources */ = {
+		C17C69A22D09CD180051E008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C17898AB2CB94C4B00CDFE68 /* Sources */ = {
+		C17C69B52D09CD2B0051E008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,15 +293,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C17898A72CB94C4B00CDFE68 /* PBXTargetDependency */ = {
+		C17C69AD2D09CD180051E008 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */;
-			targetProxy = C17898A62CB94C4B00CDFE68 /* PBXContainerItemProxy */;
+			target = C17898922CB94C4A00CDFE68 /* Loomeria */;
+			targetProxy = C17C69AC2D09CD180051E008 /* PBXContainerItemProxy */;
 		};
-		C17898B12CB94C4B00CDFE68 /* PBXTargetDependency */ = {
+		C17C69BE2D09CD2B0051E008 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C17898922CB94C4A00CDFE68 /* LesPetitsCreateurs */;
-			targetProxy = C17898B02CB94C4B00CDFE68 /* PBXContainerItemProxy */;
+			target = C17898922CB94C4A00CDFE68 /* Loomeria */;
+			targetProxy = C17C69BD2D09CD2B0051E008 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,12 +436,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LesPetitsCreateurs\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Loomeria\"";
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LesPetitsCreateurs/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "P'tits Créateurs";
+				INFOPLIST_FILE = Loomeria/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Loomeria;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateurs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ydays.Loomeria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -472,12 +473,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LesPetitsCreateurs\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Loomeria\"";
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LesPetitsCreateurs/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "P'tits Créateurs";
+				INFOPLIST_FILE = Loomeria/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Loomeria;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateurs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ydays.Loomeria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -499,82 +501,84 @@
 			};
 			name = Release;
 		};
-		C17898BD2CB94C4B00CDFE68 /* Debug */ = {
+		C17C69AF2D09CD180051E008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateursTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vanhovev.LoomeriaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LesPetitsCreateurs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LesPetitsCreateurs";
+				TEST_TARGET_NAME = Loomeria;
 			};
 			name = Debug;
 		};
-		C17898BE2CB94C4B00CDFE68 /* Release */ = {
+		C17C69B02D09CD180051E008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateursTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vanhovev.LoomeriaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LesPetitsCreateurs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LesPetitsCreateurs";
+				TEST_TARGET_NAME = Loomeria;
 			};
 			name = Release;
 		};
-		C17898C02CB94C4B00CDFE68 /* Debug */ = {
+		C17C69C02D09CD2B0051E008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateursUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vanhovev.LoomeriaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "les-petits-createurs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loomeria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loomeria";
 			};
 			name = Debug;
 		};
-		C17898C12CB94C4B00CDFE68 /* Release */ = {
+		C17C69C12D09CD2B0051E008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z889TDRYB6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.lpc.LesPetitsCreateursUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.vanhovev.LoomeriaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "les-petits-createurs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loomeria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loomeria";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C178988E2CB94C4A00CDFE68 /* Build configuration list for PBXProject "LesPetitsCreateurs" */ = {
+		C178988E2CB94C4A00CDFE68 /* Build configuration list for PBXProject "Loomeria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C17898B72CB94C4B00CDFE68 /* Debug */,
@@ -583,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17898B92CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateurs" */ = {
+		C17898B92CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "Loomeria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C17898BA2CB94C4B00CDFE68 /* Debug */,
@@ -592,20 +596,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17898BC2CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateursTests" */ = {
+		C17C69AE2D09CD180051E008 /* Build configuration list for PBXNativeTarget "LoomeriaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C17898BD2CB94C4B00CDFE68 /* Debug */,
-				C17898BE2CB94C4B00CDFE68 /* Release */,
+				C17C69AF2D09CD180051E008 /* Debug */,
+				C17C69B02D09CD180051E008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17898BF2CB94C4B00CDFE68 /* Build configuration list for PBXNativeTarget "LesPetitsCreateursUITests" */ = {
+		C17C69BF2D09CD2B0051E008 /* Build configuration list for PBXNativeTarget "LoomeriaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C17898C02CB94C4B00CDFE68 /* Debug */,
-				C17898C12CB94C4B00CDFE68 /* Release */,
+				C17C69C02D09CD2B0051E008 /* Debug */,
+				C17C69C12D09CD2B0051E008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

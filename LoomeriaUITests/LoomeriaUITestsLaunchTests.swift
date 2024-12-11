@@ -1,13 +1,13 @@
 //
-//  les_petits_createursUITestsLaunchTests.swift
-//  les-petits-createursUITests
+//  LoomeriaUITestsLaunchTests.swift
+//  LoomeriaUITests
 //
-//  Created by Valentin Vanhove on 11/10/2024.
+//  Created by Valentin Vanhove on 11/12/2024.
 //
 
 import XCTest
 
-final class LesPetitsCreateursUITestsLaunchTests: XCTestCase {
+final class LoomeriaUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
